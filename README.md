@@ -16,3 +16,4 @@ any english in the model was labeled using SynthV style arpabet + [q] and [vf] a
 i also realised, when i labeled these, i used a script to add the folder name as a prefix all .wav files, as other wise they would clash and fail. i never actualy included that so this repo has been useless until now dhjflsdjkh.
 
 its now included. to use it run "python rename_files.py (path to m4singer folder)" and all files will be renamed.
+also a script to delete any .wavs that dont have a matching .lab files, as there were alot that had parts of notes cut off. in those cases, i just skipped that .wav
